@@ -1,3 +1,4 @@
-nuc.hex
-nuc.lst
+*.hex
+*.lst
+*.mem
 ram.v

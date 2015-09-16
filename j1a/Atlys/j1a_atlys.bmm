@@ -1,0 +1,12 @@
+
+ADDRESS_SPACE j1a RAMB16 [0x00000000:0x00001FFF]
+
+	BUS_BLOCK
+		ram/nram/Mram_mem4 RAMB16 [3:0];
+		ram/nram/Mram_mem3 RAMB16 [7:4];
+		ram/nram/Mram_mem2 RAMB16 [11:8];
+		ram/nram/Mram_mem1 RAMB16 [15:12];
+	END_BUS_BLOCK;
+
+END_ADDRESS_SPACE;
+
