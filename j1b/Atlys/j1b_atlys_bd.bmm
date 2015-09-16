@@ -6,11 +6,11 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-// Address space 'j1' 0x00000000:0x00007FFF (32 KBytes).
+// Address space 'j1b' 0x00000000:0x00007FFF (32 KBytes).
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-ADDRESS_SPACE j1 RAMB16 [0x00000000:0x00007FFF]
+ADDRESS_SPACE j1b RAMB16 [0x00000000:0x00007FFF]
     BUS_BLOCK
         ram/nram/Mram_mem16 RAMB16 [1:0] [0:8191] PLACED = X2Y30;
         ram/nram/Mram_mem15 RAMB16 [3:2] [0:8191] PLACED = X2Y26;
