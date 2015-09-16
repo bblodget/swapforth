@@ -1,0 +1,24 @@
+
+ADDRESS_SPACE j1 RAMB16 [0x00000000:0x00007FFF]
+
+	BUS_BLOCK
+		ram/nram/Mram_mem16 RAMB16 [1:0];
+		ram/nram/Mram_mem15 RAMB16 [3:2];
+		ram/nram/Mram_mem14 RAMB16 [5:4];
+		ram/nram/Mram_mem13 RAMB16 [7:6];
+		ram/nram/Mram_mem12 RAMB16 [9:8];
+		ram/nram/Mram_mem11 RAMB16 [11:10];
+		ram/nram/Mram_mem10 RAMB16 [13:12];
+		ram/nram/Mram_mem9 RAMB16 [15:14];
+		ram/nram/Mram_mem8 RAMB16 [17:16];
+		ram/nram/Mram_mem7 RAMB16 [19:18];
+		ram/nram/Mram_mem6 RAMB16 [21:20];
+		ram/nram/Mram_mem5 RAMB16 [23:22];
+		ram/nram/Mram_mem4 RAMB16 [25:24];
+		ram/nram/Mram_mem3 RAMB16 [27:26];
+		ram/nram/Mram_mem2 RAMB16 [29:28];
+		ram/nram/Mram_mem1 RAMB16 [31:30];
+	END_BUS_BLOCK;
+
+END_ADDRESS_SPACE;
+

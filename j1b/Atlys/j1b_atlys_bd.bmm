@@ -1,0 +1,33 @@
+// BMM LOC annotation file.
+//
+// Release 14.6 -  P.20131013, build 3.0.10 Apr 3, 2013
+// Copyright (c) 1995-2015 Xilinx, Inc.  All rights reserved.
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Address space 'j1' 0x00000000:0x00007FFF (32 KBytes).
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_SPACE j1 RAMB16 [0x00000000:0x00007FFF]
+    BUS_BLOCK
+        ram/nram/Mram_mem16 RAMB16 [1:0] [0:8191] PLACED = X2Y30;
+        ram/nram/Mram_mem15 RAMB16 [3:2] [0:8191] PLACED = X2Y26;
+        ram/nram/Mram_mem14 RAMB16 [5:4] [0:8191] PLACED = X2Y36;
+        ram/nram/Mram_mem13 RAMB16 [7:6] [0:8191] PLACED = X2Y32;
+        ram/nram/Mram_mem12 RAMB16 [9:8] [0:8191] PLACED = X2Y40;
+        ram/nram/Mram_mem11 RAMB16 [11:10] [0:8191] PLACED = X3Y30;
+        ram/nram/Mram_mem10 RAMB16 [13:12] [0:8191] PLACED = X2Y24;
+        ram/nram/Mram_mem9 RAMB16 [15:14] [0:8191] PLACED = X1Y30;
+        ram/nram/Mram_mem8 RAMB16 [17:16] [0:8191] PLACED = X1Y32;
+        ram/nram/Mram_mem7 RAMB16 [19:18] [0:8191] PLACED = X2Y28;
+        ram/nram/Mram_mem6 RAMB16 [21:20] [0:8191] PLACED = X2Y38;
+        ram/nram/Mram_mem5 RAMB16 [23:22] [0:8191] PLACED = X2Y34;
+        ram/nram/Mram_mem4 RAMB16 [25:24] [0:8191] PLACED = X3Y32;
+        ram/nram/Mram_mem3 RAMB16 [27:26] [0:8191] PLACED = X3Y34;
+        ram/nram/Mram_mem2 RAMB16 [29:28] [0:8191] PLACED = X2Y22;
+        ram/nram/Mram_mem1 RAMB16 [31:30] [0:8191] PLACED = X1Y34;
+    END_BUS_BLOCK;
+END_ADDRESS_SPACE;
+
